@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class Kafe07 {
     static Scanner sc = new Scanner(System.in);
-    static String namaPelanggan, kodePromo;
-    static boolean isMember;
 
 
     // public static void menu() {
@@ -71,6 +69,9 @@ public class Kafe07 {
     }
 
     public static void main(String[] args) {
+
+    String namaPelanggan, kodePromo;
+    boolean isMember;
         
 
         System.out.println("==== SELAMAT DATANG DI KAFE JTI ====");
